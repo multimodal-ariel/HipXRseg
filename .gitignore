@@ -11,3 +11,4 @@ nnunet_workspace_v2/nnUNet_results/
 nnunet_workspace_v2/*.zip
 __pycache__/
 *.pyc
+*.ipynb
