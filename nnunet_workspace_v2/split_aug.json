@@ -1,0 +1,61 @@
+{
+  "seed": 42,
+  "base_train": [
+    "EE02A0AD",
+    "EE053AD7",
+    "EE1A4A3F",
+    "EE25C5EA",
+    "EE333E7D",
+    "EE513B92",
+    "EE67CE46",
+    "EE695DEE",
+    "EE764F46",
+    "EE830AE3",
+    "EE9A24A5",
+    "EEB4E39B",
+    "EEB7193C",
+    "EECC7446",
+    "EED35BC2",
+    "EED9E2C6",
+    "EEEC177A",
+    "EEF0F27A",
+    "EEFA8689",
+    "EEFD975F"
+  ],
+  "test": [
+    "EE4559F3",
+    "EE64C677",
+    "EECC14AD",
+    "EED278FA",
+    "EEE8928B",
+    "EEEAA8F5"
+  ],
+  "offline_aug": [
+    "EE02A0AD_hflip",
+    "EE053AD7_hflip",
+    "EE1A4A3F_hflip",
+    "EE25C5EA_hflip",
+    "EE333E7D_hflip",
+    "EE513B92_hflip",
+    "EE67CE46_hflip",
+    "EE695DEE_hflip",
+    "EE764F46_hflip",
+    "EE830AE3_hflip",
+    "EE9A24A5_hflip",
+    "EEB4E39B_hflip",
+    "EEB7193C_hflip",
+    "EECC7446_hflip",
+    "EED35BC2_hflip",
+    "EED9E2C6_hflip",
+    "EEEC177A_hflip",
+    "EEF0F27A_hflip",
+    "EEFA8689_hflip",
+    "EEFD975F_hflip"
+  ],
+  "n_train_total": 40,
+  "notes": [
+    "Offline aug: horizontal flip + label swap 1\u21942, 3\u21944",
+    "Online: nnU-Net DA without mirroring (nnUNetTrainerNoMirrorEarlyStop)",
+    "Test set unchanged (no aug), same 6 held-out cases as Dataset801"
+  ]
+}

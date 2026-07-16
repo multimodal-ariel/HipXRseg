@@ -1,0 +1,13 @@
+rawdata/
+*.dcm
+*.pth
+*.pt
+*.nii.gz
+*.npy
+*.npz
+nnunet_workspace_v2/nnUNet_raw/
+nnunet_workspace_v2/nnUNet_preprocessed/
+nnunet_workspace_v2/nnUNet_results/
+nnunet_workspace_v2/*.zip
+__pycache__/
+*.pyc
